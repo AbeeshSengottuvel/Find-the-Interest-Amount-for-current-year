@@ -17,7 +17,7 @@ public class carLoanMethodsInputDetails {
 		XSSFCell cell = row.getCell(0);
 		int value1 = (int) cell.getNumericCellValue();
 		wbook.close();
-		
+		//hi 
 		return String.valueOf(value1);
 	}
        //Input data of car loan Intrest Rate from excel file
